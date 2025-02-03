@@ -116,7 +116,7 @@ a {
 
 #logo_gps {
   display: flex;
-  width: 50px;
+  width: 77px;
   border-radius: 15px 0px 0px 15px;
   align-items: center;
   justify-content: center;
@@ -189,6 +189,7 @@ input {
   font-weight: 700;
   line-height: 19.96px;
   margin-top: 20px;
+  font-size: smaller;
 }
 
 .les_boutons_filtres {
@@ -205,7 +206,7 @@ input {
   display: flex;
   justify-content: flex-start;
   border: 2px solid var(--main-bg-color);
-  border-radius: 25px;
+  border-radius: 35px;
   padding: 4px 19px 4px 19px;
   gap: 10px;
 }
@@ -403,9 +404,8 @@ p {
   padding-left: 6px;
 }
 
-h4 {
+h5 {
   margin: 5px 0px 10px 6px;
-  font-size: smaller;
 }
 
 /************** END Section Activités ***************/
@@ -416,18 +416,23 @@ h4 {
   background-color: var(--main-bg-color);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 20px;
+  padding: 0px 262px 0px 10px;
 }
 
 .booki_footer ul {
   padding-left: 0px;
   list-style-type: none;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .booki_footer li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: -5px;
 }
 
 /******** End Footer **********/
