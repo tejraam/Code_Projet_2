@@ -124,11 +124,19 @@ a {
 
 #bouton_rechercher {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--main-color);
+  border: none; /* Supprime la bordure par défaut du bouton */
+  color: white; /* Texte en blanc */
+  font-weight: bold;
   border-radius: 0px 15px 15px 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-  height: 49px;
+  padding: 15px;
+  cursor: pointer; /* Affiche un curseur pointer */
+}
+
+#bouton_rechercher:hover {
+  background-color: #004bb5; /* Effet hover */
 }
 
 #bouton_rechercher p {
