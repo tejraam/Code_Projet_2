@@ -361,7 +361,7 @@ input {
 /************** Section Activités ***************/
 
 #activite {
-  padding: 30px;
+  padding: 60px 30px;
   box-sizing: border-box;
 }
 
@@ -371,14 +371,15 @@ input {
   flex-direction: row;
   flex-wrap: nowrap;
   box-sizing: border-box;
+  justify-content: space-between;
+  margin-top: 25px;
 }
 
 .lien_activite_card {
   background-color: white;
-  width: 25%;
+  width: 22%;
   box-shadow: 0 3px 15px rgba(15, 45, 78, 0.2);
   border-radius: 20px;
-  margin: 20px;
 }
 
 .activite_card img {
@@ -400,6 +401,11 @@ input {
 h3,
 p {
   padding-left: 6px;
+}
+
+h4 {
+  margin: 5px 0px 10px 6px;
+  font-size: smaller;
 }
 
 /************** END Section Activités ***************/
@@ -630,6 +636,7 @@ p {
     flex-direction: column;
     flex-wrap: nowrap;
     box-sizing: border-box;
+    justify-content: space-between;
   }
   .lien_activite_card {
     width: 100%;
