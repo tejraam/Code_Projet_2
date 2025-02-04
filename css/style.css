@@ -496,6 +496,9 @@ h4 {
   .lien_activite_card img {
     height: 200px;
   }
+  body {
+    font-size: smaller;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
